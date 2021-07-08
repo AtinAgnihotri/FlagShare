@@ -13,6 +13,7 @@
 		851B7660269767A2008A813A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851B765E269767A1008A813A /* Main.storyboard */; };
 		851B7662269767A6008A813A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851B7661269767A6008A813A /* Assets.xcassets */; };
 		851B7665269767A6008A813A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851B7663269767A6008A813A /* LaunchScreen.storyboard */; };
+		851B766D26976DFF008A813A /* FlagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B766C26976DFF008A813A /* FlagViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		851B7661269767A6008A813A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		851B7664269767A6008A813A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		851B7666269767A6008A813A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851B766C26976DFF008A813A /* FlagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				851B7661269767A6008A813A /* Assets.xcassets */,
 				851B7663269767A6008A813A /* LaunchScreen.storyboard */,
 				851B7666269767A6008A813A /* Info.plist */,
+				851B766C26976DFF008A813A /* FlagViewController.swift */,
 			);
 			path = FlagShare;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851B766D26976DFF008A813A /* FlagViewController.swift in Sources */,
 				851B765D269767A1008A813A /* ViewController.swift in Sources */,
 				851B7659269767A1008A813A /* AppDelegate.swift in Sources */,
 				851B765B269767A1008A813A /* SceneDelegate.swift in Sources */,

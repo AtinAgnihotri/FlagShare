@@ -30,7 +30,13 @@ class ViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        // todo
+//        let vc = FlagViewController()
+//        vc.flagName = flags[indexPath.row]
+//        navigationController?.pushViewController(vc, animated: true)
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "FlagView") as? FlagViewController {
+            vc.flagName = flags[indexPath.row]
+            navigationController?.pushViewController(vc, animated: true)
+        }
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
