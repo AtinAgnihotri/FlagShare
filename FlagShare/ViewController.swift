@@ -45,7 +45,11 @@ class ViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FlagCell", for: indexPath)
-        cell.textLabel?.text = flags[indexPath.row].uppercased()
+        let flag = flags[indexPath.row]
+        cell.textLabel?.text = flag.uppercased()
+        cell.imageView?.image = UIImage(named: flag)
+        cell.imageView?.layer.borderWidth = 2
+        cell.imageView?.layer.borderColor = UIColor.lightGray.cgColor
         return cell
     }
 
